@@ -1,0 +1,31 @@
+body #menu {
+  list-style: none;
+  padding-bottom: 25px;
+  border-bottom: 1px solid black; }
+  body #menu li {
+    display: inline;
+    padding: 0 0.5em;
+    font-size: 1.5em; }
+    body #menu li a {
+      text-decoration: none;
+      color: black; }
+  body #menu #admin {
+    float: right;
+    margin-top: 30px; }
+  body #menu #nyan {
+    width: 100px;
+    height: 50px; }
+body #grosContenaire {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  body #grosContenaire #contenaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px; }
+    body #grosContenaire #contenaire img {
+      width: auto;
+      height: auto; }
+body h2 {
+  color: green; }
